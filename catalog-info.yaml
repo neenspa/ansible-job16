@@ -1,0 +1,13 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible-job16
+  description: ansible-job16
+  annotations:
+    backstage.io/kubernetes-id: ansible-job16
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
